@@ -41,6 +41,11 @@
                     </div>
 
                     <div class="mb-3">
+                        <label for="email">ALAMAT</label>
+                        <input class="form-control" type="text" name="alamat" placeholder="ALAMAT" required />
+                    </div>
+
+                    <div class="mb-3">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">PASSWORD</label>
                         <input type="password" class="form-control" id="password" name="password" 
                                autocomplete="off" placeholder="PASSWORD" required />

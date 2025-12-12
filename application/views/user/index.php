@@ -24,9 +24,8 @@
                         <thead>
                             <tr>
                                 <th>No.</th>
-                                <th>NIK</th>
-                                <th>Username</th>
-                                <th>Full Name</th>
+                                <th>Name</th>
+                                <th>Email</th>
                                 <th>Phone</th>
                                 <th>Role</th>
                                 <th>Action</th>
@@ -38,9 +37,8 @@
                         foreach ($user as $user) { 
                             echo '<tr>';
                             echo '<td>'.$no.'</td>';
-                            echo '<td>'.$user->nik.'</td>';
                             echo '<td>'.$user->username.'</td>';
-                            echo '<td>'.$user->full_name.'</td>';
+                            echo '<td>'.$user->email.'</td>';
                             echo '<td>'.$user->phone.'</td>';
                             echo '<td>'.$user->role.'</td>';
                             echo '<td>

@@ -38,7 +38,6 @@ class User extends CI_Controller {
         redirect('user');
     }
 
-    // ★ FUNCTION BUKA HALAMAN EDIT
     public function getedit($id)
     {
         $data = array(
@@ -49,7 +48,6 @@ class User extends CI_Controller {
         $this->load->view('template/main',$data);
     }
 
-    // ★ FUNCTION UPDATE DATA
     public function edit()
     {
         $this->User_model->editData();
