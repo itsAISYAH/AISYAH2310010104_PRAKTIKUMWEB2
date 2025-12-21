@@ -23,7 +23,7 @@
                             <a class="nav-link" href="<?= site_url('kategori'); ?>">Kategori</a>
                             <a class="nav-link" href="<?= site_url('satuan'); ?>">Satuan</a>
                             <a class="nav-link" href="<?= site_url('supplier'); ?>">Supplier</a>
-                            <a class="nav-link" href="<?= site_url('customer'); ?>">Customer</a>
+                            <a class="nav-link" href="<?= site_url('kustomer'); ?>">Customer</a>
                             <a class="nav-link" href="<?= site_url('barang'); ?>">Barang</a>
                             <a class="nav-link" href="<?= site_url('user'); ?>">User</a>
                         </nav>
